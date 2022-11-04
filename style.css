@@ -1,0 +1,88 @@
+/*.video{
+    width: 100%;
+}*/
+.head{
+    background-color: rgb(255, 255, 255);
+}
+
+.h1{
+    text-align: center;
+    color: rgb(35, 90, 181) ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/*.main_text_img{
+    left: 0px;
+    top: 50;
+    margin: 0;
+    position:absolute;
+    
+    
+}*/
+
+.main_text{
+    padding-left: 0;
+    left: 0px;
+    top: 0;
+    margin: 0;
+    position:relative;
+    width: 1440px;
+    z-index: 4;
+    color: azure;
+}
+
+.reference{
+    color: azure;
+}
+
+
+.img{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 3;
+    
+    
+}
+/*
+.video_wrapper{
+    max-width: 1440px;
+    margin:0 auto;
+    position: relative;
+}
+
+.video_item{
+    padding-top: 56.25%;
+}*/
+.video_element{
+    position: absolute;
+    
+    top:145px;
+    left:0;
+    z-index: 2;
+}
+.footer_text{
+    position: absolute;
+    top: 1125px;
+    z-index: 1;
+    color: rgb(35, 90, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.img_footer{
+    position: absolute;
+    left: 0;
+    top: 1000px;
+    z-index: 0;
+}
+/*
+.intro{
+    background: url(../img/Groupflag1.jpg) no-repeat center;
+    background-size: cover;
+
+}*/
