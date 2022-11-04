@@ -1,34 +1,51 @@
 /*.video{
     width: 100%;
+}
+*{
+    margin:0;
+    padding: 0;
 }*/
+#wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
 .head{
-    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    top: 0;
 }
 
 .h1{
-    text-align: center;
+    text-align: left;
+    top: 6px;
+    left: 20px;
+    position: relative;
+    margin: auto;
     color: rgb(35, 90, 181) ;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
     
 }
+.logo{
+    position: absolute;
+    top: 5px;
+    left:0;
+    z-index: 0;
+}
+
+
 .main{
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-/*.main_text_img{
-    left: 0px;
-    top: 50;
-    margin: 0;
-    position:absolute;
-    
-    
-}*/
 
 .main_text{
     padding-left: 0;
-    left: 0px;
-    top: 0;
-    margin: 0;
+    left: 10px;
+    top: 20px;
+    margin: 0 auto;
     position:relative;
     width: 1440px;
     z-index: 4;
@@ -45,19 +62,11 @@
     top: 50px;
     left: 0;
     z-index: 3;
-    
-    
-}
-/*
-.video_wrapper{
     max-width: 1440px;
-    margin:0 auto;
-    position: relative;
+    margin: 0 auto;
+    
+    
 }
-
-.video_item{
-    padding-top: 56.25%;
-}*/
 .video_element{
     position: absolute;
     
@@ -68,6 +77,7 @@
 .footer_text{
     position: absolute;
     top: 1125px;
+    left: 10px;
     z-index: 1;
     color: rgb(35, 90, 181);
     font-family: Arial, Helvetica, sans-serif;
@@ -80,9 +90,3 @@
     top: 1000px;
     z-index: 0;
 }
-/*
-.intro{
-    background: url(../img/Groupflag1.jpg) no-repeat center;
-    background-size: cover;
-
-}*/
